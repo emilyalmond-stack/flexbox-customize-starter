@@ -110,12 +110,13 @@ body {
 
 .wrapper {
   /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
-  align-items:center;
+  align-items:flex-start;
   display:flex;
+  flex-direction: column;
   height: 100%;
   justify-content: space-around;
   margin: 0;
-  padding: 60px;
+  padding: 30px;
   width: 100%;
 }
 
